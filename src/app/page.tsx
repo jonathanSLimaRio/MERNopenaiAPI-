@@ -1,13 +1,12 @@
 import Sidebar from '../components/Sidebar'
+import Main from '../views/main'
 import styles from '../styles/page.module.scss'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <div className={styles.main}>
       <Sidebar />
-      <div>
-        <h1>MAIN</h1>
-      </div>
-    </main>
+      <Main />
+    </div>
   )
 }
