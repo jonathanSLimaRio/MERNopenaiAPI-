@@ -1,0 +1,10 @@
+$primary-color: #0300c7;
+
+:export {
+  primaryColor: $primary-color;
+}
+
+.main {
+  display: flex;
+  min-height: 100vh;  
+}
