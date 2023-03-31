@@ -4,12 +4,19 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First, run the development server:
 
+add apiKey on line 8 - server.js
+
 ```bash
-npm run dev
-# or
+yarn
+
+cd /src/app/openai
+yarn
+
+bash 1
 yarn dev
-# or
-pnpm dev
+
+bash 2
+yarn nodemon server.js
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
